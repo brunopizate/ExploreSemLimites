@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing:antialised;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+body {
+
+  font-size: 14px;
+  font-weight: 400;
+  margin:  auto;
+  background-color: #f9f4fb;
+
+}
+
+.explorar{
+  margin-right: 20px;
+}
+.astro {
+
+  width: 800px;
+  height: 650px;
+  margin-top:50px;
+}
+.ship{
+  width:180px;
+  height:160px;
+  margin-right: 10px;
+}
+.shipbb{
+ width:350px;
+  height:197px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 62px;
+  margin:  auto;
+}
+
+h1 {
+  font-family: 'Mulish', 'Times New Roman', Sans Serif;
+  font-weight: 700;
+  font-size: 58px;
+
+  color: #b52184;
+  display: flex;
+
+}
+
+.explorar {
+  padding: 321px 0 0 109px;
+}
+
+.arrow {
+  height: 105px;
+}
+
+button {
+  width:58px;
+  height:105px;
+  border-color: #b52184;
+  border-radius: 30px;
+  background-color: #f9f4fb;
+  border-width: 4.5px;
+}
+
+.page_1 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding:10px;
+  width:1440px;
+  height: 700px;
+  gap:10px;
+  margin-bottom: 200px;
+  margin:  auto;
+  bottom: 90px;
+}
+
+.page_2 {
+  position: relative;
+  align-items: center;
+  padding:10px;
+  background-image: linear-gradient(to right,#343193,#333088, #322E7B,#312D70,#302C63);
+  width:1440px;
+  height: 580px;
+  display: flex;
+  gap: 40px;
+  box-sizing: content-box;
+   margin:  auto;
+}
+
+h2 {
+  
+  font-family: 'Mulish', 'Times New Roman', Sans Serif;
+  font-weight: 600;
+  font-size: 35.3px;
+  display: flex;
+ 
+  margin-bottom: 15px;
+  color: #b52184;
+}
+
+h3 {
+  font-family: 'Mulish', 'Times New Roman', Sans Serif;
+  font-weight: 700;
+  font-size: 19px;
+  color: #312d64;
+  display: flex;
+  margin-bottom: 75px;
+  justify-content: center;
+}
+
+p {
+  display: flex;
+  font-family: 'Mulish', 'Times New Roman', Sans Serif;
+  margin: 40px 0;
+  color: #312d64;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.caixa {
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+  justify-content: space-between;
+  background-color: #f9f4fb;
+  width:366px;
+  height: 448px;
+  border-radius: 10px;
+  gap:10px;
+
+}
+.ship{
+  margin-left: 5px;
+  margin-top: 10px;
+}
+h2,h3{
+  text-align: center;
+  justify-content: center;
+}
+.page_3 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding:10px;
+  width:1440px;
+  height: 700px;
+  gap:10px;
+  margin:  auto;
+  align-items: center;
+}
+fieldset{
+  width: 595px;
+  height: 422px;
+  border: none;
+}
+form{
+  width: 592px;
+}
+input{
+  font-family: 'Mulish', 'Times New Roman', Sans Serif;
+  width: 592px;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+textarea{
+  margin-top: 10px;
+  width: 592px;
+  height: 126px;
+  border-radius: 10px;
+  resize: none;
+}
+legend{
+   font-family: 'Mulish', 'Times New Roman', Sans Serif;
+   color:#b52184;
+   font-size: 42px;
+   font-weight: 600;
+}
+.enviar{
+   background-color:#312d64;
+  font-family: 'Mulish', 'Times New Roman', Sans Serif;
+  color: #fff;
+  width:151px;
+  height:45px;
+  margin-top: 50px;
+  border-radius: 15px;
+  border:none;
+  margin-left: 10px;
+}
+#rolar-pagina{
+  cursor:pointer;
+}
+.seta{
+  display: flex;
+  margin-left: 5px;
+  font-size: 5rem;
+  margin-bottom: 15px;
+  color:#b52184;
+}
+input{
+  margin-top: 10px;
+  font-family: 'Mulish', 'Times New Roman', Sans Serif;
+  font-weight: 700;
+  
+}
+footer{
+  background-image: linear-gradient(to right,#343193,#333088, #322E7B,#312D70,#302C63);
+  font-family:  'Mulish', 'Times New Roman', Sans Serif;
+  font-weight: 600;
+  font-size: 19px;
+  align-items: center;
+  margin:auto;
+  display: flex;
+  width:1440px;
+  height:78px;
+  color:#fff;
+  justify-content: center;
+}
+#name{
+  background: url('https://i.ibb.co/82FmV6C/person.png') no-repeat left center;
+}
+#email{
+  background: url('https://i.ibb.co/tLWJ5hH/at.png')no-repeat left center;
+}
